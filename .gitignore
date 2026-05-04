@@ -1,0 +1,32 @@
+# Carpetas generadas por el motor de Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Archivos de memoria y rendimiento
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Archivos autogenerados de IDEs (Visual Studio / Rider)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos basura del Sistema Operativo
+.DS_Store
+Thumbs.db
