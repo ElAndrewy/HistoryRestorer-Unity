@@ -2,30 +2,39 @@ using UnityEngine;
 
 public class BookshelfInteract : MonoBehaviour
 {
-    [Header("Configuración de la Estantería")]
-    [Tooltip("Índice de esta estantería (0, 1, 2...) para el RestorationManager")]
     public int shelfIndex;
+    public GameObject puzzleUI; // NUEVO: Asigna el Panel_Desafio1 en el inspector
 
     private bool isPlayerInRange = false;
-    private bool isChallengeCompleted = false; // Nueva variable de estado
+    private bool isChallengeCompleted = false;
 
     void Update()
     {
-        // Detecta interacción solo si no se ha completado el desafío
-        if (isPlayerInRange && !isChallengeCompleted && Input.GetKeyDown(KeyCode.E))
+        // Chivato 1: ¿Sabe que estás ahí?
+        if (isPlayerInRange)
         {
-            // En el juego real, esto abriría el minijuego UI
-            TriggerChallenge();
+            Debug.Log("El jugador está en el rango. Esperando la tecla E...");
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("¡Tecla E presionada!");
+                if (!isChallengeCompleted)
+                {
+                    TriggerChallenge();
+                }
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Chivato 2: ¿Qué está tocando la estantería?
+        Debug.Log("ALGO acaba de tocar el Trigger de la estantería: " + collision.gameObject.name);
+
         if (collision.CompareTag("Player") && !isChallengeCompleted)
         {
             isPlayerInRange = true;
-            // Aquí podrías encender un pequeño icono de "Presiona E" sobre la cabeza del jugador
-            Debug.Log("Jugador en rango. Presiona 'E' para restaurar esta estantería.");
+            Debug.Log("Ese ALGO era el Player. isPlayerInRange ahora es TRUE.");
         }
     }
 
@@ -39,35 +48,10 @@ public class BookshelfInteract : MonoBehaviour
 
     private void TriggerChallenge()
     {
-        Debug.Log($"¡Iniciando desafío en estantería #{shelfIndex}!");
+        isChallengeCompleted = true; // Evita que se abra dos veces
 
-        // --- SIMULACIÓN DEL DESAFÍO ---
-        // En el juego final, esta función pausará el movimiento del jugador,
-        // abrirá una ventana de UI con el puzzle, y esperará la respuesta.
-
-        // Por ahora, simularemos que el niño respondió bien instantáneamente:
-        OnChallengeSuccess();
-        // ------------------------------
-    }
-
-    // Función que llamará tu sistema de UI/Puzzle al ganar
-    public void OnChallengeSuccess()
-    {
-        if (isChallengeCompleted) return; // Evita restaurar múltiples veces
-
-        isChallengeCompleted = true; // Marcamos como completada
-
-        // Le avisamos al cerebro central (Manager) que encienda esta sección
-        if (RestorationManager.Instance != null)
-        {
-            RestorationManager.Instance.RestoreSection(shelfIndex);
-        }
-        else
-        {
-            Debug.LogError("No se encontró el RestorationManager en la escena.");
-        }
-
-        // Aquí podrías cambiar el sprite de la estantería de "gris" a "colorido"
-        // GetComponent<SpriteRenderer>().color = Color.white; // Si usabas un tono gris previo
+        // Enciende la UI del puzzle y congela el juego
+        puzzleUI.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
