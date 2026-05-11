@@ -34,9 +34,9 @@
               "Title": "BookshelfInInteract.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BookshelfInInteract.cs",
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T02:54:50.272Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DraggableItem.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:52:50.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T02:52:50.99Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PuzzleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:46:53.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T02:46:53.268Z"
             }
           ]
         }
