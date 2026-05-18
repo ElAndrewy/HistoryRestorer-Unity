@@ -48,7 +48,6 @@ public class BookshelfInteract : MonoBehaviour
 
     private void TriggerChallenge()
     {
-        isChallengeCompleted = true; // Evita que se abra dos veces
 
         // Enciende la UI del puzzle y congela el juego
         puzzleUI.SetActive(true);

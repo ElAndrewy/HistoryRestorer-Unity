@@ -1,75 +1,38 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Animator))] // Asegura que tenemos el componente
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    [Header("Movimiento")]
-    public float speed = 5f;
-    public float jumpForce = 8f;
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
 
-    [Header("Detección de Suelo")]
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
-    public LayerMask groundLayer;
-
-    // Componentes y Estado
     private Rigidbody2D rb;
-    private Animator animator; // Referencia al animator
-    private float horizontalInput;
-    private bool isGrounded;
-    private bool facingRight = true; // Para girar el sprite
+    private float moveInput;
+    private bool isGrounded; // Nuestra validación real
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); // Obtenemos el animator en Start
     }
 
     void Update()
     {
-        // 1. Entrada y Detección
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        moveInput = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
-        // 2. Salto
+        // Solo salta si el jugador presionó el botón Y además isGrounded es verdadero
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isGrounded = false; // Al saltar, ya no estamos en el suelo
         }
-
-        // 3. Gestionar orientación (Girar el sprite)
-        if (horizontalInput > 0 && !facingRight) { Flip(); }
-        else if (horizontalInput < 0 && facingRight) { Flip(); }
-
-        // 4. ACTUALIZAR ANIMADOR (NUEVO)
-        // Usamos Math.Abs para que Speed siempre sea positiva, aunque corra a la izquierda.
-        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
-        animator.SetBool("isGrounded", isGrounded);
-        animator.SetFloat("verticalVelocity", rb.linearVelocity.y);
     }
 
-    void FixedUpdate()
+    // Unity llama a esto automáticamente cuando el jugador toca algo
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Movimiento físico
-        rb.linearVelocity = new Vector2(horizontalInput * speed, rb.linearVelocity.y);
-    }
-
-    // Método para girar el personaje visualmente
-    private void Flip()
-    {
-        facingRight = !facingRight;
-        Vector3 scaler = transform.localScale;
-        scaler.x *= -1; // Invierte la escala X para girar
-        transform.localScale = scaler;
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        if (groundCheck != null)
+        if (collision.gameObject.CompareTag("Suelo"))
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+            isGrounded = true; // Tocamos el suelo, permitimos saltar
         }
     }
 }
