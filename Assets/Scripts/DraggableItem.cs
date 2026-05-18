@@ -11,6 +11,24 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [HideInInspector] public Transform parentAfterDrag;
     private CanvasGroup canvasGroup;
 
+    private Canvas myCanvas; // Referencia a su propio canvas (Sub-Canvas)
+    private const int SORT_ORDER_DRAGGING = 9999; // Un número masivo
+    private const int SORT_ORDER_REST = 0; // Estándar al soltar
+    void Start()
+    {
+        // ... (lógica existente si hay)
+
+        // Obtenemos la referencia a su propio componente Canvas
+        myCanvas = GetComponent<Canvas>();
+
+        // Por seguridad, aseguramos que Override Sorting esté activo
+        if (myCanvas != null)
+        {
+            myCanvas.overrideSorting = true;
+            myCanvas.sortingOrder = SORT_ORDER_REST; // Empieza en 0
+        }
+    }
+
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
@@ -24,7 +42,13 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
 
-        // Apaga la detección de rayos para que el ratón detecte el 'DropSlot' que está debajo
+        // SOLUCIÓN TÉCNICA DEFINITIVA (Punto 2 de tus errores):
+        // Activamos un Sub-Canvas Z-Sorting masivo durante el arrastre
+        if (myCanvas != null)
+        {
+            myCanvas.sortingOrder = SORT_ORDER_DRAGGING;
+        }
+
         canvasGroup.blocksRaycasts = false;
     }
 
@@ -36,8 +60,15 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // Retorna a su contenedor padre (ya sea el original o un nuevo DropSlot)
         transform.SetParent(parentAfterDrag);
+
+        // SOLUCIÓN TÉCNICA DEFINITIVA:
+        // Restauramos el sorting estándar para que las máscaras estándar y Layout Groups funcionen a rest
+        if (myCanvas != null)
+        {
+            myCanvas.sortingOrder = SORT_ORDER_REST;
+        }
+
         canvasGroup.blocksRaycasts = true;
     }
 }

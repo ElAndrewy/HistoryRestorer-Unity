@@ -46,7 +46,7 @@ public class PuzzleManager : MonoBehaviour
 
         if (correctPieces == sequenceSlots.Count)
         {
-            feedbackText.text = "¡EXCELENTE! Has restaurado la historia.";
+            feedbackText.text = "¡Misión Apolo 11 completada! El viaje a la luna ha vuelto a la normalidad.";
             feedbackText.color = Color.green;
 
             foreach (Image img in pieceImages) img.color = Color.green;
@@ -55,7 +55,7 @@ public class PuzzleManager : MonoBehaviour
         }
         else
         {
-            feedbackText.text = "Mmm... algo no cuadra. ¡Revisa el orden!";
+            feedbackText.text = "¡Espera! El cohete no puede aterrizar antes de despegar. Revisa el orden cronológico.";
             feedbackText.color = Color.red;
 
             // SOLUCIÓN PUNTO 3: Usamos una corrutina para asegurar el cambio de color
@@ -68,8 +68,8 @@ public class PuzzleManager : MonoBehaviour
     {
         foreach (Image img in imagesToReset) img.color = Color.red;
 
-        // Ajustado a 1.5 segundos exactos según tu requerimiento
-        yield return new WaitForSecondsRealtime(1.5f);
+        // Ajustado a 2.0 segundos exactos según tu requerimiento
+        yield return new WaitForSecondsRealtime(2.0f);
 
         foreach (Image img in imagesToReset)
         {
@@ -77,7 +77,11 @@ public class PuzzleManager : MonoBehaviour
         }
 
         // NUEVO: Limpiamos el texto de fallo de la pantalla
-        if (feedbackText != null) feedbackText.text = "";
+        if (feedbackText != null)
+        {   
+            feedbackText.color= Color.white;
+            feedbackText.text = "¡Ordena cronológicamente las imágenes...!";
+        }
     }
 
     private void ExecuteWinCondition()
