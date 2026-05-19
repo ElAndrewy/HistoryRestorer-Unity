@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\bookshelfininteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\bookshelfininteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookshelfininteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\draggableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\draggableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draggableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,10 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArrastrarFicha.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\ArrastrarFicha.cs",
+              "RelativeDocumentMoniker": "Assets\\ArrastrarFicha.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\ArrastrarFicha.cs",
+              "RelativeToolTip": "Assets\\ArrastrarFicha.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T20:05:11.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BookshelfInInteract.cs",
-              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BookshelfInInteract.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+=======
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+>>>>>>> origin/cambiosquedeprontohaga
               "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,11 +64,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DraggableItem.cs",
-              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DraggableItem.cs",
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\DraggableItem.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,11 +77,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PuzzleManager.cs",
-              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleManager.cs",
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\PuzzleManager.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwDwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

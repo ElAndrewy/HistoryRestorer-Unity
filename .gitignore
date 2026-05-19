@@ -30,5 +30,32 @@
 # Archivos basura del Sistema Operativo
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 .vs/HistoryRestorer-Unity.slnx/FileContentIndex/789b171d-8a53-4829-8f38-33e7d93cb95b.vsidx
 .vs/HistoryRestorer-Unity.slnx/FileContentIndex/1b9c4ca1-d310-4106-8a77-43ba120eb577.vsidx
+=======
+.vs/HistoryRestorer-Unity.slnx/FileContentIndex/673ec341-e459-4186-b74b-8b884e084626.vsidx
+.vs/HistoryRestorer-Unity.slnx/FileContentIndex/a3fa5a89-1c04-4600-9138-e81c17bb2ff4.vsidx
+.vs/HistoryRestorer-Unity.slnx/FileContentIndex/d957024f-5c42-4be5-b0d7-c1964bbad662.vsidx
+.vs/HistoryRestorer-Unity.slnx/FileContentIndex/db88c723-ff57-4b6c-b798-6a9d4458d499.vsidx
+.vs/HistoryRestorer-Unity.slnx/FileContentIndex/e76936d0-2cef-4132-8666-b6246c732e04.vsidx
+Assets/Ficha_Leon.prefab
+Assets/Ficha_Leon.prefab.meta
+Assets/Sprites_Mision2.meta
+Assets/Scripts/ArrastrarFicha.cs
+Assets/Scripts/ArrastrarFicha.cs.meta
+Assets/Scripts/ControladorMision.cs
+Assets/Scripts/ControladorMision.cs.meta
+Assets/Scripts/DatosFicha.cs
+Assets/Scripts/DatosFicha.cs.meta
+Assets/Scripts/ZonaReceptora.cs
+Assets/Scripts/ZonaReceptora.cs.meta
+Assets/Sprites_Mision2/leon.jpg
+Assets/Sprites_Mision2/leon.jpg.meta
+Assets/Sprites_Mision2/luz.jpg
+Assets/Sprites_Mision2/luz.jpg.meta
+Assets/Sprites_Mision2/moto.jpg
+Assets/Sprites_Mision2/moto.jpg.meta
+Assets/Sprites_Mision2/tren.jpg
+Assets/Sprites_Mision2/tren.jpg.meta
+>>>>>>> origin/cambiosquedeprontohaga
