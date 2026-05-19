@@ -48,7 +48,6 @@ public class BookshelfInteract : MonoBehaviour
 
     private void TriggerChallenge()
     {
-
         // Enciende la UI del puzzle y congela el juego
         puzzleUI.SetActive(true);
         Time.timeScale = 0f;

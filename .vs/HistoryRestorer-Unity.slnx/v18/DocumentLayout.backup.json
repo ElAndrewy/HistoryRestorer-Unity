@@ -34,9 +34,19 @@
               "Title": "BookshelfInInteract.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BookshelfInInteract.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs*",
               "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAACAAAAAAAAAA==",
+=======
+<<<<<<< HEAD
+              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+=======
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+>>>>>>> origin/cambiosquedeprontohaga
+              "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBwAAAAxAAAAAAAAAA==",
+>>>>>>> ad8e1c46a1b39ec4572bac9247e58948533d988b
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T02:54:50.272Z",
               "EditorCaption": ""
@@ -51,7 +61,8 @@
               "RelativeToolTip": "Assets\\Scripts\\DraggableItem.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:52:50.99Z"
+              "WhenOpened": "2026-05-06T02:52:50.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,7 +74,8 @@
               "RelativeToolTip": "Assets\\Scripts\\PuzzleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:46:53.268Z"
+              "WhenOpened": "2026-05-06T02:46:53.268Z",
+              "EditorCaption": ""
             }
           ]
         }
