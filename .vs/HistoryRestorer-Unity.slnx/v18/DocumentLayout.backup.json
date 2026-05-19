@@ -1,17 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\bookshelfininteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\zonasoltado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonasoltado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\zonareceptora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonareceptora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\datosficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datosficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\bookshelfininteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookshelfininteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\draggableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\draggableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draggableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,51 +51,100 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookshelfInInteract.cs",
-              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BookshelfInInteract.cs",
-<<<<<<< HEAD
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAACAAAAAAAAAA==",
-=======
-<<<<<<< HEAD
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
-=======
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
->>>>>>> origin/cambiosquedeprontohaga
-              "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBwAAAAxAAAAAAAAAA==",
->>>>>>> ad8e1c46a1b39ec4572bac9247e58948533d988b
+              "Title": "ZonaSoltado.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ZonaSoltado.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ZonaSoltado.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ZonaSoltado.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ZonaSoltado.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:54:50.272Z",
+              "WhenOpened": "2026-05-19T17:21:13.331Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControladorMision.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ControladorMision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ControladorMision.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ControladorMision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ControladorMision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T17:21:10.342Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DraggableItem.cs",
-              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DraggableItem.cs",
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DraggableItem.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAFAAAAAAAAAA==",
+              "Title": "ZonaReceptora.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ZonaReceptora.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ZonaReceptora.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ZonaReceptora.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ZonaReceptora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:52:50.99Z",
+              "WhenOpened": "2026-05-19T17:21:10.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PuzzleManager.cs",
-              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleManager.cs",
-              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PuzzleManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DatosFicha.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DatosFicha.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DatosFicha.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DatosFicha.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DatosFicha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:46:53.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T17:21:10.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArrastrarFicha.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ArrastrarFicha.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArrastrarFicha.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ArrastrarFicha.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArrastrarFicha.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T17:21:10.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookshelfInInteract.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BookshelfInInteract.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\BookshelfInInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BookshelfInInteract.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T17:21:10.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DraggableItem.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DraggableItem.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\DraggableItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DraggableItem.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T17:21:10.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\PuzzleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PuzzleManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwDwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T17:21:10.564Z"
             }
           ]
         }
