@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\zonareceptora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonareceptora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\historyrestorer-unity\\assets\\scripts\\datosficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,16 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -59,20 +51,24 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T17:21:10.342Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ZonaReceptora.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ZonaReceptora.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ZonaReceptora.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ZonaReceptora.cs",
               "RelativeToolTip": "Assets\\Scripts\\ZonaReceptora.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAADwvzAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwFwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T17:21:10.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T17:21:10.503Z"
             },
             {
               "$type": "Document",
@@ -88,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ArrastrarFicha.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\ArrastrarFicha.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArrastrarFicha.cs",
@@ -96,8 +92,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ArrastrarFicha.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T17:21:10.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T17:21:10.551Z"
             },
             {
               "$type": "Document",
