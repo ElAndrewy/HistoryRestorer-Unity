@@ -649,10 +649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38af8802c7d39e45a487af887d3a669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bookshelfIndex: 1
-  puzzlePanel: {fileID: 19552892}
-  textoFeedback: {fileID: 1901553035}
-  luzFaroDirecta: {fileID: 1545274999}
   canasta1Silaba: {fileID: 1707805099}
   canasta2Silabas: {fileID: 1489203634}
 --- !u!1 &22529483
@@ -42180,7 +42176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86af7b9b5f7e9f14781466a3e76eb679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  silabasRequeridas: 0
+  silabasRequeridas: 2
 --- !u!114 &1489203636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49266,7 +49262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86af7b9b5f7e9f14781466a3e76eb679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  silabasRequeridas: 0
+  silabasRequeridas: 1
 --- !u!114 &1707805101
 MonoBehaviour:
   m_ObjectHideFlags: 0

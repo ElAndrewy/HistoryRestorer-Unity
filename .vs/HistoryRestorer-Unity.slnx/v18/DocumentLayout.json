@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\mision2\\arrastrarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mision2\\arrastrarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\mision2\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mision2\\arrastrarficha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\mision2\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mision2\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\mision2\\zonareceptora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mision2\\zonareceptora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\mision2\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mision2\\controladormision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\candr\\documents\\historyrestorer-unity\\assets\\scripts\\mision4\\gamemanagermision4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +42,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArrastrarUI.cs",
+              "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ArrastrarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mision2\\ArrastrarUI.cs",
+              "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ArrastrarUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mision2\\ArrastrarUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:55:32.747Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -48,44 +69,40 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mision2\\ZonaReceptora.cs",
               "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ZonaReceptora.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mision2\\ZonaReceptora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T18:08:48.17Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ControladorMision.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ControladorMision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mision2\\ControladorMision.cs",
               "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ControladorMision.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mision2\\ControladorMision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T15:00:45.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ArrastrarFicha.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ArrastrarFicha.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mision2\\ArrastrarFicha.cs",
               "ToolTip": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision2\\ArrastrarFicha.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mision2\\ArrastrarFicha.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T16:59:52.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameManagerMision4.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision4\\GameManagerMision4.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mision4\\GameManagerMision4.cs",
@@ -93,12 +110,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Mision4\\GameManagerMision4.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAUwKoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:01:19.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T15:01:19.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BotonLetra.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision4\\BotonLetra.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mision4\\BotonLetra.cs",
@@ -106,12 +122,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Mision4\\BotonLetra.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:53:13.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T17:53:13.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AnomalyManager.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Scripts\\Mision3\\AnomalyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mision3\\AnomalyManager.cs",
@@ -119,12 +134,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Mision3\\AnomalyManager.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAcwIEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:15:48.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T16:15:48.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\candr\\Documents\\HistoryRestorer-Unity\\Assets\\Sprites_Mision2\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites_Mision2\\GameManager.cs",
@@ -132,8 +146,7 @@
               "RelativeToolTip": "Assets\\Sprites_Mision2\\GameManager.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAowF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T18:15:10.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T18:15:10.457Z"
             }
           ]
         }
