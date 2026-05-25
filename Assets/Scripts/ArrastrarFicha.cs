@@ -1,50 +1,62 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI; // Requerido para manipular el Layout
 
-public class ArrastrarFicha : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class ItemArrastrable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    [HideInInspector] public Transform padreAlSoltar;
+    public int cantidadSilabas;
 
     private Transform padreOriginal;
     private CanvasGroup canvasGroup;
-    private RectTransform rectTransform;
-    private Canvas canvas;
+    private LayoutElement layoutElement;
 
-    private void Awake()
+    void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        rectTransform = GetComponent<RectTransform>();
-        canvas = GetComponentInParent<Canvas>();
+        if (canvasGroup == null) canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
-        // El inventario inicial se guarda como su base segura permanente
-        padreOriginal = transform.parent;
+        // Busca o inyecta el componente que controla la relación con el inventario
+        layoutElement = GetComponent<LayoutElement>();
+        if (layoutElement == null) layoutElement = gameObject.AddComponent<LayoutElement>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        // Por defecto, si el usuario la suelta en el aire, regresa al inventario
-        padreAlSoltar = padreOriginal;
+        padreOriginal = transform.parent;
 
-        transform.SetParent(canvas.transform);
-        transform.SetAsLastSibling(); // Se dibuja al frente de todo durante el arrastre
+        // 1. Apaga la fuerza magnética del inventario
+        layoutElement.ignoreLayout = true;
+
+        // 2. Saca la imagen del panel temporalmente para que flote libre sobre el Canvas
+        transform.SetParent(transform.root);
+        transform.SetAsLastSibling();
 
         canvasGroup.blocksRaycasts = false;
-        canvasGroup.alpha = 0.6f;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+        // Movimiento atado estrictamente al cursor
+        transform.position = Input.mousePosition;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = true;
-        canvasGroup.alpha = 1f;
 
-        // Se asigna al padre definitivo (La canasta si acertó, o el inventario si falló)
-        transform.SetParent(padreAlSoltar);
+        GameObject objetoTocado = eventData.pointerCurrentRaycast.gameObject;
 
-        // Si regresa al inventario, el Layout Group del inventario la reubicará automáticamente
+        // Verifica rigurosamente si el impacto fue sobre una zona válida
+        if (objetoTocado == null || objetoTocado.GetComponentInParent<ZonaReceptora>() == null)
+        {
+            RegresarAInventario();
+        }
+    }
+
+    public void RegresarAInventario()
+    {
+        // Reconecta la imagen al inventario y reactiva las reglas del Layout Group
+        transform.SetParent(padreOriginal);
+        layoutElement.ignoreLayout = false;
     }
 }
